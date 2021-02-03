@@ -1,4 +1,4 @@
-package com.my.myapp;
+package com.gls.winter;
 
 import java.util.List;
 

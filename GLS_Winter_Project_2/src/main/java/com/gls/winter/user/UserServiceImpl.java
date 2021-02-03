@@ -1,9 +1,9 @@
-package com.my.myapp.user;
+package com.gls.winter.user;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.my.myapp.BoardVO;
+import com.gls.winter.BoardVO;
 
 @Service
 public class UserServiceImpl implements UserService {

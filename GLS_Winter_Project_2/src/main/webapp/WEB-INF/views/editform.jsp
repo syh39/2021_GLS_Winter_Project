@@ -32,7 +32,7 @@
 				<td><form:input path="photourl" /></td>
 			</tr>
 			<tr>
-				<td id="definition">가격</td>
+				<td id="definition">글쓴이</td>
 				<td><form:input path="writer" /></td>
 			</tr>
 			<tr>

@@ -1,4 +1,4 @@
-package com.my.myapp.user;
+package com.gls.winter.user;
 
 public class UserVO {
 	private String userid;

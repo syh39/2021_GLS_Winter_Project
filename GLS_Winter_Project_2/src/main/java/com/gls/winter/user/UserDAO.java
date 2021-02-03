@@ -1,4 +1,4 @@
-package com.my.myapp.user;
+package com.gls.winter.user;
 
 import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

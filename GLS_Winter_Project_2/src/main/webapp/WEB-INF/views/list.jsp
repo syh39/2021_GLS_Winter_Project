@@ -153,7 +153,7 @@ background-color: orange;
 							<div class="panel-heading">${u.seq}</div>
 							<div class="panel-heading">${u.title}</div>
 							<div class="panel-body" style="box-sizing: border-box; width: 300px; height : 300px ;">
-								<img src=${u.photourl} style="box-sizing: border-box; width: 250px; height : 250px ;"/>
+								<img src=${u.photourl} style="box-sizing: border-box; width: 100%; height : 100% ;"/>
 							</div>
 							<div class="panel-footer">상품명 : ${u.category}</div>
 							<div class="panel-footer">가격 : ${u.writer}</div>

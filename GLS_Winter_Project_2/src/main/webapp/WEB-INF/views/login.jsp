@@ -23,9 +23,11 @@
 <body>
 <div style='width:100%;text-align:center;padding-top:100px'>
 <form method="post" action="loginOk">
-<h1>H:Market</h1>
+<h1>Lost & Found</h1>
 <div><label>User Id: </label><input type='text' name='userid'/></div>
+<br>
 <div><label>Password: </label><input type='password' name='password'/></div>
+<br>
 <button type='submit'>login</button>
 
 </form>

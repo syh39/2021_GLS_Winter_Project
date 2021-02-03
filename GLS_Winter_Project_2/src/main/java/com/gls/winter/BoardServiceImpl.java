@@ -1,4 +1,4 @@
-package com.my.myapp;
+package com.gls.winter;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
