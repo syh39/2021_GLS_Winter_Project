@@ -34,6 +34,11 @@ public class BoardController {
 		return "list";
 	}
 	
+	@RequestMapping(value = "/my_page", method = RequestMethod.GET)
+	public String myPage() {
+		return "my_page";
+	}
+	
 	@RequestMapping(value = "/add", method = RequestMethod.GET)
 	public String addPost() {
 		return "addpostform";
