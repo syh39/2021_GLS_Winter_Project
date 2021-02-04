@@ -8,7 +8,7 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url" value="jdbc:mysql://db4free.net:3306/yohansdb" />
 		<property name="username" value="syh3000" />
-		<property name="password" value="gshock375" />
+		<property name="password" value="12345abcd" />
 	</bean>
 	
 	<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
