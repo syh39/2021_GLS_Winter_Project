@@ -100,7 +100,7 @@ body {
 						</div>
 						<a href="my_page"
 							style="position: absolute; float: left; margin-left: 70px; margin-top: 10px;">마이페이지</a>
-						<a href="write_page"
+						<a href="add"
 							style="position: absolute; float: left; margin-left: 160px; margin-top: 10px;">글쓰기</a>
 						<a href="chat_page"
 							style="position: absolute; float: left; margin-left: 220px; margin-top: 10px;">채팅하기</a>

@@ -2,29 +2,26 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="Board">
 	<insert id="insertBoard">
-		insert into BOARD (category, title, writer, content, photourl)
+		insert into LF_Product_Test (category, title, writer, content, photourl)
 		values
 		(#{category}, #{title}, #{writer}, #{content}, #{photourl})
 	</insert>
 	<update id="updateBoard">
-		update BOARD
+		update LF_Product_Test
 		set title=#{title}, content=#{content},
 		writer=#{writer}, category=#{category}, photourl=#{photourl}
 		where seq=#{seq}
 	</update>
 	<delete id="deleteBoard">
-		delete from BOARD where seq=#{seq}
+		delete from LF_Product_Test where seq=#{seq}
 	</delete>
 	<select id="getBoard" resultType="board">
-		select * from BOARD where
+		select * from LF_Product_Test where
 		seq=#{seq}
 	</select>
 	<select id="getBoardList" resultType="board">
-		select * from BOARD order
+		select * from LF_Product_Test order
 		by seq desc
 	</select>
-
-
-
 
 </mapper>

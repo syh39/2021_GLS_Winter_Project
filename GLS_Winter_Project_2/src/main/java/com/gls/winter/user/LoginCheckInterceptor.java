@@ -26,6 +26,4 @@ public class LoginCheckInterceptor extends HandlerInterceptorAdapter {
 			ModelAndView modelAndView) throws Exception {
 		super.postHandle(request, response, handler, modelAndView);
 	}
-	
-	
 }
