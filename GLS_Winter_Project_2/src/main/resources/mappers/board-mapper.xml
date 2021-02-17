@@ -9,7 +9,8 @@
 	<update id="updateBoard">
 		update LF_Product_Test
 		set title=#{title}, content=#{content},
-		writer=#{writer}, category=#{category}, photourl=#{photourl}
+		writer=#{writer}, category=#{category}, photourl=#{photourl}, lost_found_date=#{lost_found_date},
+		lost=#{lost}, feature=#{feature}
 		where seq=#{seq}
 	</update>
 	<delete id="deleteBoard">
