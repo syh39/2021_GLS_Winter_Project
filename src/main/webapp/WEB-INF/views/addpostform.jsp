@@ -13,7 +13,7 @@
 <body>
 
 	<h1>새 물품 등록하기</h1>
-	<form action="addok" method="post">
+	<form action="addok" method="post" enctype="multipart/form-data">
 		<table id="list">
 			<tr>
 				<td id="definition">Lost/Found</td>
@@ -29,9 +29,13 @@
 				<td id="definition">상품명</td>
 				<td><input type="text" name="category" /></td>
 			</tr>
-			<tr>
+			<!-- <tr>
 				<td id="definition">사진 URL</td>
 				<td><input type="text" name="photourl" /></td>
+			</tr> -->
+			<tr>
+				<td id="definition">사진 첨부</td>
+				<td><input type="file" name="file" id="customFile"></td>
 			</tr>
 			<tr>
 				<td id="definition">분실/습득 날짜</td>
@@ -50,6 +54,7 @@
 				<td id="definition">특징</td>
 				<td><textarea cols="50" rows="5" name="feature"></textarea></td>
 			</tr>
+			
 
 		</table>
 		<br />

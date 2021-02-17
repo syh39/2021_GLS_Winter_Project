@@ -25,6 +25,8 @@
     if (a)
       location.href = 'deleteok/' + id;
   }
+
+  
 </script>
 
 
@@ -87,13 +89,12 @@ div.description {
 	padding: 10px;
 }
 
-#desc1 {	
+#desc1 {
 	font-size: 20px;
 	text-align: left;
 	font-weight: 700;
 	padding-left: 5%;
 }
-
 
 @media only screen and (min-width: 520px) {
 	div.card {
@@ -112,9 +113,6 @@ div.description {
 		width: 22%;
 	}
 }
-
-
-
 </style>
 
 </head>
@@ -130,15 +128,21 @@ div.description {
 		<c:forEach items="${list}" var="u">
 
 			<div class="card">
-
+				<div class="seq">${u.seq}</div>
 				<div class="image">
 					<img src=${u.photourl
 									}
-						style="box-sizing: border-box; width: 100%; height: 300px" />
+						style="box-sizing: border-box; width: 100%; height: 230px" />
 				</div>
-				<div class="description">
-					<span class="seq">${u.seq}</span> <span class="title">제목 :
-						${u.title}</span>
+				<div class="description">					
+					
+					<script>
+					var lf = ${u.lost};
+					if(lf) document.write ( '<span style="background-color:#CBECBB; padding:1.5px 3px; border-radius: 3px;">Found</span>' );
+					else document.write ( '<span style="background-color:#F1CBC2; padding:1.5px 3px; border-radius: 3px;">Lost</span>' );
+					</script>
+					
+					 <span class="title">${u.title}</span>
 
 					<div class="name">상품명 : ${u.category}</div>
 
